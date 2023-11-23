@@ -206,12 +206,7 @@ $(function () {
     boards: boards,
     dragBoards: true,
     addItemButton: true,
-    itemAddOptions: {
-      enabled: true, // add a button to board for easy item creation
-      content: '+ Add New Item', // text or html content of the board button
-      class: 'kanban-title-button btn btn-default btn-xs', // default class of the button
-      footer: false // position the button on footer
-    },
+    buttonContent: '+ Add Item',
     click: function (el) {
       var el = $(el);
       var title = el.attr('data-eid') ? el.find('.kanban-text').text() : el.text(),

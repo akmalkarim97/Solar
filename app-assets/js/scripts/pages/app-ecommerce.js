@@ -108,8 +108,7 @@ $(function () {
       $this.attr('href', checkout);
       toastr['success']('', 'Added Item In Your Cart 🛒', {
         closeButton: true,
-        tapToDismiss: false,
-        rtl: direction
+        tapToDismiss: false
       });
     });
   }
@@ -122,8 +121,7 @@ $(function () {
       if ($this.find('svg').hasClass('text-danger')) {
         toastr['success']('', 'Added to wishlist ❤️', {
           closeButton: true,
-          tapToDismiss: false,
-          rtl: direction
+          tapToDismiss: false
         });
       }
     });

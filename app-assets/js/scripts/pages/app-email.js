@@ -41,8 +41,7 @@ $(function () {
     mailUnread = $('.mail-unread'),
     emailSearch = $('#email-search'),
     editorEl = $('#message-editor .editor'),
-    overlay = $('.body-content-overlay'),
-    isRtl = $('html').attr('data-textdirection') === 'rtl';
+    overlay = $('.body-content-overlay');
 
   var assetPath = '../../../app-assets/';
 
@@ -242,8 +241,7 @@ $(function () {
       if ($(this).find('svg').hasClass('favorite')) {
         toastr['success']('Updated mail to favorite', 'Favorite Mail ⭐️', {
           closeButton: true,
-          tapToDismiss: false,
-          rtl: isRtl
+          tapToDismiss: false
         });
       }
     });
@@ -293,8 +291,7 @@ $(function () {
         emailAppList.find('.selectAll input').prop('checked', false);
         toastr['error']('You have removed email.', 'Mail Deleted!', {
           closeButton: true,
-          tapToDismiss: false,
-          rtl: isRtl
+          tapToDismiss: false
         });
         userActions.find('.custom-checkbox input').prop('checked', '');
       }

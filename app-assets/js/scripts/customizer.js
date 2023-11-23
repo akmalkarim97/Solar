@@ -10,8 +10,7 @@
 (function (window, document, $) {
   'use strict';
 
-  var html = $('html'),
-    body = $('body'),
+  var body = $('body'),
     // appContent = $('.app-content'),
     mainMenu = $('.main-menu'),
     menuType = body.attr('data-menu'),
@@ -43,16 +42,13 @@
   $('.layout-name').on('click', function () {
     var $this = $(this);
     var currentLayout = $this.data('layout');
-    html.removeClass('dark-layout bordered-layout semi-dark-layout').addClass(currentLayout);
+    body.removeClass('dark-layout bordered-layout').addClass(currentLayout);
     if (currentLayout === '') {
       mainMenu.removeClass('menu-dark').addClass('menu-light');
       navbar.removeClass('navbar-dark').addClass('navbar-light');
     } else if (currentLayout === 'dark-layout') {
       mainMenu.removeClass('menu-light').addClass('menu-dark');
-      navbar.removeClass('navbar-light').addClass('navbar-dark');
-    } else if (currentLayout === 'semi-dark-layout') {
-      mainMenu.removeClass('menu-light').addClass('menu-dark');
-      navbar.removeClass('navbar-dark').addClass('navbar-light');
+      navbar.removeClass('navbar-dark').addClass('navbar-dark');
     } else {
       mainMenu.removeClass('menu-dark').addClass('menu-light');
       navbar.removeClass('navbar-dark').addClass('navbar-light');
@@ -66,7 +62,7 @@
   });
 
   // Default Skin Selected Based on Current Layout
-  var layout = html.data('layout');
+  var layout = body.data('layout');
   $(".layout-name[data-layout='" + layout + "']").prop('checked', true);
 
   collapseSidebar.on('click', function () {
@@ -98,7 +94,7 @@
         .find(navbar)
         .removeClass('bg-primary bg-secondary bg-success bg-danger bg-info bg-warning bg-dark navbar-dark');
     }
-    if (html.hasClass('dark-layout')) {
+    if (body.hasClass('dark-layout')) {
       navbar.addClass('navbar-dark');
     }
   });
