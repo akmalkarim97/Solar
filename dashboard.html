@@ -20,6 +20,8 @@
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/toastr.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/datatables.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/responsive.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/charts/apexcharts.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
@@ -36,6 +38,7 @@
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/charts/chart-apex.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/extensions/ext-component-toastr.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/pages/app-invoice-list.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/charts/chart-apex.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
@@ -472,8 +475,68 @@
                     </div>
 
                     <div class="row match-height">
-                        <!-- Avg Sessions Chart Card starts -->
+
+                        <!-- Support Tracker Chart Card starts -->
                         <div class="col-lg-6 col-12">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between pb-0">
+                                    <h4 class="card-title">Sireh Park IoT Solar Street Lighting</h4>
+                                    <div class="dropdown chart-dropdown">
+                                        <button class="btn btn-sm border-0 dropdown-toggle p-50" type="button" id="dropdownItem4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Last 7 Days
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownItem4">
+                                            <a class="dropdown-item" href="javascript:void(0);">Last 28 Days</a>
+                                            <a class="dropdown-item" href="javascript:void(0);">Last Month</a>
+                                            <a class="dropdown-item" href="javascript:void(0);">Last Year</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-2 col-12 d-flex flex-column flex-wrap text-center">
+                                            <h1 class="font-large-2 font-weight-bolder mt-2 mb-0">20</h1>
+                                            <p class="card-text">Devices</p>
+                                        </div>
+                                        <div class="col-sm-10 col-12 d-flex justify-content-center">
+                                            <div id="support-trackers-chart"></div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-1">
+                                        <div class="text-center">
+                                            <p class="card-text mb-50">Active</p>
+                                            <span class="font-large-1 font-weight-bold">18</span>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="card-text mb-50">Inactive</p>
+                                            <span class="font-large-1 font-weight-bold">2</span>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="card-text mb-50">Response Time</p>
+                                            <span class="font-large-1 font-weight-bold">1d</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Support Tracker Chart Card ends -->
+
+                        <!-- Donut Chart Starts-->
+                        <div class="col-xl-6 col-12">
+                            <div class="card">
+                                <div class="card-header flex-column align-items-start">
+                                    <h4 class="card-title mb-75">Expense Ratio</h4>
+                                    <span class="card-subtitle text-muted">Spending on various categories </span>
+                                </div>
+                                <div class="card-body">
+                                    <div id="donut-chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Donut Chart Ends-->
+
+                        <!-- Avg Sessions Chart Card starts -->
+                        <!-- <div class="col-lg-6 col-12">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="row pb-50">
@@ -531,53 +594,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Avg Sessions Chart Card ends -->
 
-                        <!-- Support Tracker Chart Card starts -->
-                        <div class="col-lg-6 col-12">
-                            <div class="card">
-                                <div class="card-header d-flex justify-content-between pb-0">
-                                    <h4 class="card-title">Support Tracker</h4>
-                                    <div class="dropdown chart-dropdown">
-                                        <button class="btn btn-sm border-0 dropdown-toggle p-50" type="button" id="dropdownItem4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Last 7 Days
-                                        </button>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownItem4">
-                                            <a class="dropdown-item" href="javascript:void(0);">Last 28 Days</a>
-                                            <a class="dropdown-item" href="javascript:void(0);">Last Month</a>
-                                            <a class="dropdown-item" href="javascript:void(0);">Last Year</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-sm-2 col-12 d-flex flex-column flex-wrap text-center">
-                                            <h1 class="font-large-2 font-weight-bolder mt-2 mb-0">163</h1>
-                                            <p class="card-text">Tickets</p>
-                                        </div>
-                                        <div class="col-sm-10 col-12 d-flex justify-content-center">
-                                            <div id="support-trackers-chart"></div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-between mt-1">
-                                        <div class="text-center">
-                                            <p class="card-text mb-50">New Tickets</p>
-                                            <span class="font-large-1 font-weight-bold">29</span>
-                                        </div>
-                                        <div class="text-center">
-                                            <p class="card-text mb-50">Open Tickets</p>
-                                            <span class="font-large-1 font-weight-bold">63</span>
-                                        </div>
-                                        <div class="text-center">
-                                            <p class="card-text mb-50">Response Time</p>
-                                            <span class="font-large-1 font-weight-bold">1d</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Support Tracker Chart Card ends -->
                     </div>
 
                     <!-- List DataTable -->
@@ -647,6 +666,7 @@
     <!-- BEGIN: Page JS-->
     <script src="app-assets/js/scripts/pages/dashboard-analytics.js"></script>
     <script src="app-assets/js/scripts/pages/app-invoice-list.js"></script>
+    <script src="app-assets/js/scripts/charts/chart-apex.js"></script>
     <!-- END: Page JS-->
 
     <script>
