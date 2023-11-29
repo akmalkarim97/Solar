@@ -39,6 +39,7 @@
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/extensions/ext-component-toastr.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/pages/app-invoice-list.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/charts/chart-apex.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/pages/dashboard-ecommerce.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
@@ -477,10 +478,10 @@
                     <div class="row match-height">
 
                         <!-- Support Tracker Chart Card starts -->
-                        <div class="col-lg-6 col-12">
+                        <div class="col-lg-4 col-12">
                             <div class="card">
                                 <div class="card-header d-flex justify-content-between pb-0">
-                                    <h4 class="card-title">Sireh Park IoT Solar Street Lighting</h4>
+                                    <h4 class="card-title">IoT Solar Devices</h4>
                                     <div class="dropdown chart-dropdown">
                                         <button class="btn btn-sm border-0 dropdown-toggle p-50" type="button" id="dropdownItem4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Last 7 Days
@@ -495,8 +496,8 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-sm-2 col-12 d-flex flex-column flex-wrap text-center">
-                                            <h1 class="font-large-2 font-weight-bolder mt-2 mb-0">20</h1>
-                                            <p class="card-text">Devices</p>
+                                            <h1 class="font-large-2 font-weight-bolder mt-2 mb-0">30</h1>
+                                            <p class="card-text">All Devices</p>
                                         </div>
                                         <div class="col-sm-10 col-12 d-flex justify-content-center">
                                             <div id="support-trackers-chart"></div>
@@ -522,7 +523,7 @@
                         <!-- Support Tracker Chart Card ends -->
 
                         <!-- Donut Chart Starts-->
-                        <div class="col-xl-6 col-12">
+                        <div class="col-xl-4 col-12">
                             <div class="card">
                                 <div class="card-header flex-column align-items-start">
                                     <h4 class="card-title mb-75">Expense Ratio</h4>
@@ -534,6 +535,30 @@
                             </div>
                         </div>
                         <!-- Donut Chart Ends-->
+
+                         <!-- Goal Overview Card -->
+                         <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h4 class="card-title">Sireh Park</h4>
+                                    <i data-feather="help-circle" class="font-medium-3 text-muted cursor-pointer"></i>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div id="goal-overview-radial-bar-chart" class="my-2"></div>
+                                    <div class="row border-top text-center mx-0">
+                                        <div class="col-6 border-right py-1">
+                                            <p class="card-text text-muted mb-0">Active</p>
+                                            <h3 class="font-weight-bolder mb-0">18</h3>
+                                        </div>
+                                        <div class="col-6 py-1">
+                                            <p class="card-text text-muted mb-0">Inactive</p>
+                                            <h3 class="font-weight-bolder mb-0">2</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ Goal Overview Card -->
 
                         <!-- Avg Sessions Chart Card starts -->
                         <!-- <div class="col-lg-6 col-12">
@@ -667,6 +692,7 @@
     <script src="app-assets/js/scripts/pages/dashboard-analytics.js"></script>
     <script src="app-assets/js/scripts/pages/app-invoice-list.js"></script>
     <script src="app-assets/js/scripts/charts/chart-apex.js"></script>
+    <script src="app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
     <!-- END: Page JS-->
 
     <script>
