@@ -116,12 +116,12 @@ $(function () {
           // Label
           targets: -2,
           render: function (data, type, full, meta) {
-            var $status_number = full['Status'];
+            var $status_number = full['status'];
             var $status = {
               1: { title: 'Current', class: 'badge-light-primary' },
-              2: { title: 'Active', class: ' badge-light-success' },
-              3: { title: 'Resigned', class: ' badge-light-danger' },
-              4: { title: 'Transferred', class: ' badge-light-warning' },
+              2: { title: 'Professional', class: ' badge-light-success' },
+              3: { title: 'Rejected', class: ' badge-light-danger' },
+              4: { title: 'Resigned', class: ' badge-light-warning' },
               5: { title: 'Applied', class: ' badge-light-info' }
             };
             if (typeof $status[$status_number] === 'undefined') {
@@ -637,8 +637,7 @@ $(function () {
             tableClass: 'table'
           })
         }
-      }   
-    });   
+      }
+    });
   }
-    
 });

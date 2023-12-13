@@ -636,8 +636,8 @@ $(window).on('load', function () {
         show: false
       }
     },
-    labels: ['New', 'Returning', 'Referrals'],
-    series: [690, 258, 149],
+    labels: ['Active', 'Inactive'],
+    series: [28, 2],
     dataLabels: {
       enabled: false
     },
@@ -645,7 +645,7 @@ $(window).on('load', function () {
     stroke: {
       width: 4
     },
-    colors: [window.colors.solid.primary, window.colors.solid.warning, window.colors.solid.danger]
+    colors: [window.colors.solid.primary, window.colors.solid.danger]
   };
   customerChart = new ApexCharts($customerChart, customerChartOptions);
   customerChart.render();
