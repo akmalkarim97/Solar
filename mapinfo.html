@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/charts/apexcharts.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/toastr.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/datatables.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/maps/leaflet.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/responsive.bootstrap.min.css">
     <!-- END: Vendor CSS-->
 
@@ -36,11 +37,12 @@
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/charts/chart-apex.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/extensions/ext-component-toastr.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/pages/app-invoice-list.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/maps/map-leaflet.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- END: Custom CSS-->
+    <!-- END: Custom CSS -->
 
 </head>
 <!-- END: Head-->
@@ -56,26 +58,11 @@
                 <ul class="nav navbar-nav d-xl-none">
                     <li class="nav-item"><a class="nav-link menu-toggle" href="javascript:void(0);"><i class="ficon" data-feather="menu"></i></a></li>
                 </ul>
-                <!-- <ul class="nav navbar-nav bookmark-icons">
-                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-email.html" data-toggle="tooltip" data-placement="top" title="Email"><i class="ficon" data-feather="mail"></i></a></li>
-                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-chat.html" data-toggle="tooltip" data-placement="top" title="Chat"><i class="ficon" data-feather="message-square"></i></a></li>
-                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-calendar.html" data-toggle="tooltip" data-placement="top" title="Calendar"><i class="ficon" data-feather="calendar"></i></a></li>
-                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-todo.html" data-toggle="tooltip" data-placement="top" title="Todo"><i class="ficon" data-feather="check-square"></i></a></li>
-                </ul> -->
-                <!-- <ul class="nav navbar-nav">
-                    <li class="nav-item d-none d-lg-block"><a class="nav-link bookmark-star"><i class="ficon text-warning" data-feather="star"></i></a>
-                        <div class="bookmark-input search-input">
-                            <div class="bookmark-input-icon"><i data-feather="search"></i></div>
-                            <input class="form-control input" type="text" placeholder="Bookmark" tabindex="0" data-search="search">
-                            <ul class="search-list search-list-bookmark"></ul>
-                        </div>
-                    </li>
-                </ul> -->
             </div>
             <ul class="nav navbar-nav align-items-center ml-auto">
-                <li class="nav-item dropdown dropdown-language"><a class="nav-link dropdown-toggle" id="dropdown-flag" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="selected-language">ALL</span></a>
+                <!--<li class="nav-item dropdown dropdown-language"><a class="nav-link dropdown-toggle" id="dropdown-flag" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="selected-language">ALL</span></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-flag"><a class="dropdown-item" href="javascript:void(0);" data-language="en"> ALL</a><a class="dropdown-item" href="javascript:void(0);" data-language="fr"> SIREH PARK</a><a class="dropdown-item" href="javascript:void(0);" data-language="de"> PULAI PERDANA</a></div>
-                </li>
+                </li>-->
                 <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style"><i class="ficon" data-feather="moon"></i></a></li>
                 <li class="nav-item dropdown dropdown-user"><a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="user-nav d-sm-flex d-none"><span class="user-name font-weight-bolder">Weststar</span><span class="user-status">Admin</span></div><span class="avatar"><img class="round" src="assets/images/admin.png" alt="avatar" height="40" width="40"><span class="avatar-status-online"></span></span>
@@ -219,7 +206,7 @@
                     </ul>
                 </li>
                 <!--MAP-->
-				<li class=' nav-item'><a class='d-flex align-items-center' href='mapinfo.html'><img src='assets/images/icons/mappp.png' class='position-left' alt='' width='25' height=''>&nbsp;&nbsp;<span class='menu-title text-truncate' data-i18n='Invoice'>Map</span></a>
+				<li class=' nav-item'><a class='d-flex align-items-center' href='#'><img src='assets/images/icons/mappp.png' class='position-left' alt='' width='25' height=''>&nbsp;&nbsp;<span class='menu-title text-truncate' data-i18n='Invoice'>Map</span></a>
                 </li>
                 <!--WEATHER-->
 				<li class=' nav-item'><a class='d-flex align-items-center' href='#'><img src='assets/images/icons/cloudy.png' class='position-left' alt='' width='25' height=''>&nbsp;&nbsp;<span class='menu-title text-truncate' data-i18n='Invoice'>Weather</span></a>
@@ -236,181 +223,66 @@
         </div>
     </div>
     <!-- END: Main Menu-->
-
-    <!-- BEGIN: Content-->
-    <div class="app-content content ">
-        <div class="content-overlay"></div>
-        <div class="header-navbar-shadow"></div>
-        <div class="content-wrapper">
-            <div class="content-header row">
-            </div>
-            <div class="content-body">
-                <!-- Dashboard Analytics Start -->
-                <section id="dashboard-analytics">
-                    <div class="row match-height">
-
-                        <!-- Customers Chart Card -->
-                        <div class="col-md-4 col-sm-12">
-                            <div class="card">
-                                <div class="card-header d-flex justify-content-between align-items-end">
-                                    <h4 class="card-title">IoT Solar Devices</h4>             
-                                </div>
-                                <div class="card-body">
-                                    <div id="customer-chart" class="mt-2 mb-1"></div>
-                                    <div class="pt-25">
-                                        <div class="d-flex justify-content-between mb-1">
-                                            <div class="d-flex align-items-center">
-                                                <i data-feather="circle" class="font-medium-1 text-primary"></i>
-                                                <span class="font-weight-bold ml-75">Active</span>
-                                            </div>
-                                            <span>28</span>
-                                        </div>
-                                       
-                                        <div class="d-flex justify-content-between">
-                                            <div class="d-flex align-items-center">
-                                                <i data-feather="circle" class="font-medium-1 text-danger"></i>
-                                                <span class="font-weight-bold ml-75">Inactive</span>
-                                            </div>
-                                            <span>2</span>
-                                        </div>
-                                        <br>
-                                        <p class="card-text text-muted font-small-2">
-                                            <span>Last Update 9:00 AM</span><span> 13/12/2023</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Customers Chart Card -->
-
-                        <!-- Revenue Card -->
-                        <div class="col-lg-8 col-12">
-                            <div class="card">
-                                <div class="card-header d-flex justify-content-between align-items-center">
-                                    <h4 class="card-title">Solar Generation</h4>
-                                    <i data-feather="settings" class="font-medium-3 text-muted cursor-pointer"></i>
-                                </div>
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-start mb-3">
-                                        <div class="mr-2">
-                                            <p class="card-text mb-50">Actual Generated</p>
-                                            <h3 class="font-weight-bolder">
-                                                <span class="text-primary">86,589</span>
-                                                <sup class="font-medium-1 font-weight-bold">kWh</sup>
-                                            </h3>
-                                        </div>
-                                        <div>
-                                            <p class="card-text mb-50">Expected Generated</p>
-                                            <h3 class="font-weight-bolder">
-                                                <span>73,683</span>
-                                                <sup class="font-medium-1 font-weight-bold">kWh</sup>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <div id="revenue-chart"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Revenue Card -->
-                    </div>
-
-                        <!-- Stats Vertical Card -->
-                    <div class="row match-height">
-                        <div class="col-xl-2 col-md-4 col-sm-6">
-                            <div class="card text-center">
-                                <div class="card-body">
-                                    <div class="avatar bg-light-warning p-50 mb-1">
-                                        <div class="avatar-content">
-                                            <i data-feather="sun" class="font-medium-5"></i>
-                                        </div>
-                                    </div>
-                                    <h2 class="font-weight-bolder">36.9kW</h2>
-                                    <p class="card-text">Energy</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-md-4 col-sm-6">
-                            <div class="card text-center">
-                                <div class="card-body">
-                                    <div class="avatar bg-light-info p-50 mb-1">
-                                        <div class="avatar-content">
-                                            <i data-feather="cloud-rain" class="font-medium-5"></i>
-                                        </div>
-                                    </div>
-                                    <h2 class="font-weight-bolder">Rain</h2>
-                                    <p class="card-text">Weather</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-md-4 col-sm-6">
-                            <div class="card text-center">
-                                <div class="card-body">
-                                    <div class="avatar bg-light-danger p-50 mb-1">
-                                        <div class="avatar-content">
-                                            <i data-feather="thermometer" class="font-medium-5"></i>
-                                        </div>
-                                    </div>
-                                    <h2 class="font-weight-bolder">28℃</h2>
-                                    <p class="card-text">Max Avg Temp</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-md-4 col-sm-6">
-                            <div class="card text-center">
-                                <div class="card-body">
-                                    <div class="avatar bg-light-primary p-50 mb-1">
-                                        <div class="avatar-content">
-                                            <i data-feather="wifi" class="font-medium-5"></i>
-                                        </div>
-                                    </div>
-                                    <h2 class="font-weight-bolder">26</h2>
-                                    <p class="card-text">Total gateway</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-md-4 col-sm-6">
-                            <div class="card text-center">
-                                <div class="card-body">
-                                    <div class="avatar bg-light-success p-50 mb-1">
-                                        <div class="avatar-content">
-                                            <i data-feather="battery-charging" class="font-medium-5"></i>
-                                        </div>
-                                    </div>
-                                    <h2 class="font-weight-bolder">6890kW</h2>
-                                    <p class="card-text">Total charge hour</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-md-4 col-sm-6">
-                            <div class="card text-center">
-                                <div class="card-body">
-                                    <div class="avatar bg-light-danger p-50 mb-1">
-                                        <div class="avatar-content">
-                                            <i data-feather="alert-triangle" class="font-medium-5"></i>
-                                        </div>
-                                    </div>
-                                    <h2 class="font-weight-bolder">0</h2>
-                                    <p class="card-text">Alert</p>
+        <!-- BEGIN: Content-->
+        <div class="app-content content ">
+            <div class="content-overlay"></div>
+            <div class="header-navbar-shadow"></div>
+            <div class="content-wrapper">
+                <div class="content-header row">
+                    <div class="content-header-left col-md-9 col-12 mb-2">
+                        <div class="row breadcrumbs-top">
+                            <div class="col-12">
+                                <h2 class="content-header-title float-left mb-0">Maps</h2>
+                                <div class="breadcrumb-wrapper">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="main.html">Dashboard</a>
+                                        </li>
+                                        <li class="breadcrumb-item active">Maps
+                                        </li>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--/ Stats Vertical Card -->
-
-                </section>
-                <!-- Dashboard Analytics end -->
-
+                    <div class="content-header-right text-md-right col-md-3 col-12 d-md-block d-none">
+                        <div class="form-group breadcrumb-right">
+                            <div class="dropdown">
+                                <button class="btn-icon btn btn-primary btn-round btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-feather="grid"></i></button>
+                                <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="app-todo.html"><i class="mr-1" data-feather="check-square"></i><span class="align-middle">Todo</span></a><a class="dropdown-item" href="app-chat.html"><i class="mr-1" data-feather="message-square"></i><span class="align-middle">Chat</span></a><a class="dropdown-item" href="app-email.html"><i class="mr-1" data-feather="mail"></i><span class="align-middle">Email</span></a><a class="dropdown-item" href="app-calendar.html"><i class="mr-1" data-feather="calendar"></i><span class="align-middle">Calendar</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-body">
+                    <section class="maps-leaflet">
+                        <div class="row">
+    
+                            <!-- Layer Control Starts -->
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Maps</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="leaflet-map" id="layer-control"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Layer Control Ends -->
+                        </div>
+                    </section>
+    
+                </div>
             </div>
         </div>
-    </div>
-    <!-- END: Content-->
-
+        
+        <!-- END: Content-->
     <div class="sidenav-overlay"></div>
     <div class="drag-target"></div>
 
     <!-- BEGIN: Footer-->
     <footer class="footer footer-static footer-light">
-        <p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2023<a class="ml-25" href="https://1.envato.market/pixinvent_portfolio" target="_blank">Weststar Engineering</a><span class="d-none d-sm-inline-block">, All rights Reserved</span></span><span class="float-md-right d-none d-md-block"></span></p>
+        <p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2024<a class="ml-25" href="https://1.envato.market/pixinvent_portfolio" target="_blank">Weststar Engineering</a><span class="d-none d-sm-inline-block">, All rights Reserved</span></span><span class="float-md-right d-none d-md-block"></i></span></p>
     </footer>
     <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
     <!-- END: Footer-->
@@ -443,8 +315,15 @@
     <script src="app-assets/js/scripts/charts/chart-apex.js"></script>
     <script src="app-assets/js/scripts/charts/chart-chartjs.js"></script>
     <script src="app-assets/js/scripts/cards/card-analytics.js"></script>
-    <!-- END: Page JS-->
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="app-assets/vendors/js/maps/leaflet.min.js"></script>
+    <!-- END: Page Vendor JS-->
 
+    <!-- BEGIN: Page JS-->
+    <script src="app-assets/js/scripts/maps/map-weststar.js"></script>
+    <!-- END: Page JS-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
         $(window).on('load', function() {
             if (feather) {
@@ -456,6 +335,4 @@
         })
     </script>
 </body>
-<!-- END: Body-->
-
 </html>
