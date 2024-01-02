@@ -1,0 +1,184 @@
+[
+  {
+    "No.": 1,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 14,
+    "Time Update": 45293.010243055556
+  },
+  {
+    "No.": 2,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 15,
+    "Time Update": 45293.03094907408
+  },
+  {
+    "No.": 3,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 16,
+    "Time Update": 45293.051666666666
+  },
+  {
+    "No.": 4,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 17,
+    "Time Update": 45293.072384259256
+  },
+  {
+    "No.": 5,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 17,
+    "Time Update": 45293.09310185185
+  },
+  {
+    "No.": 6,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 18,
+    "Time Update": 45293.11380787037
+  },
+  {
+    "No.": 7,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 18,
+    "Time Update": 45293.13452546296
+  },
+  {
+    "No.": 8,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 19,
+    "Time Update": 45293.15524305555
+  },
+  {
+    "No.": 9,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 19,
+    "Time Update": 45293.17594907407
+  },
+  {
+    "No.": 10,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 19,
+    "Time Update": 45293.19666666666
+  },
+  {
+    "No.": 11,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 19,
+    "Time Update": 45293.21738425926
+  },
+  {
+    "No.": 12,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 19,
+    "Time Update": 45293.23810185185
+  },
+  {
+    "No.": 13,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.25881944445
+  },
+  {
+    "No.": 14,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.27952546296
+  },
+  {
+    "No.": 15,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.30024305556
+  },
+  {
+    "No.": 16,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.32096064815
+  },
+  {
+    "No.": 17,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 0,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.341678240744
+  },
+  {
+    "No.": 18,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 2,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.36238425926
+  },
+  {
+    "No.": 19,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 4,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.383101851854
+  },
+  {
+    "No.": 20,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 6,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.403819444444
+  },
+  {
+    "No.": 21,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 8,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.42453703703
+  },
+  {
+    "No.": 22,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 10,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.445243055554
+  },
+  {
+    "No.": 23,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 12,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.46596064815
+  },
+  {
+    "No.": 24,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 15,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.48667824074
+  },
+  {
+    "No.": 25,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 17,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.49921296296
+  },
+  {
+    "No.": 26,
+    "Device ID": "SP60-01",
+    "Charge (AH)": 18,
+    "Discharge (AH)": 20,
+    "Time Update": 45293.50256944444
+  }
+]

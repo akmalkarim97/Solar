@@ -1,0 +1,786 @@
+[
+  {
+    "No.": 1,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45272.00667824074
+  },
+  {
+    "No.": 2,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45272.027395833335
+  },
+  {
+    "No.": 3,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45272.048101851855
+  },
+  {
+    "No.": 4,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45272.068819444445
+  },
+  {
+    "No.": 5,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45272.089537037034
+  },
+  {
+    "No.": 6,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45272.11025462963
+  },
+  {
+    "No.": 7,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45272.130960648145
+  },
+  {
+    "No.": 8,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45272.15167824074
+  },
+  {
+    "No.": 9,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45272.17239583333
+  },
+  {
+    "No.": 10,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45272.19310185185
+  },
+  {
+    "No.": 11,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.5,
+    "Power (W)": 0,
+    "Time Update": 45272.21381944444
+  },
+  {
+    "No.": 12,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45272.23453703704
+  },
+  {
+    "No.": 13,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45272.25525462963
+  },
+  {
+    "No.": 14,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 1.4,
+    "Power (W)": 0,
+    "Time Update": 45272.27596064815
+  },
+  {
+    "No.": 15,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 17.1,
+    "Power (W)": 0,
+    "Time Update": 45272.29667824074
+  },
+  {
+    "No.": 16,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.11,
+    "Voltage (V)": 18.5,
+    "Power (W)": 2,
+    "Time Update": 45272.317395833335
+  },
+  {
+    "No.": 17,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.9,
+    "Voltage (V)": 19.5,
+    "Power (W)": 37,
+    "Time Update": 45272.338113425925
+  },
+  {
+    "No.": 18,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.84,
+    "Voltage (V)": 19.5,
+    "Power (W)": 16,
+    "Time Update": 45272.358819444446
+  },
+  {
+    "No.": 19,
+    "Device ID": "SP60-01",
+    "Current (A)": 2.57,
+    "Voltage (V)": 19.2,
+    "Power (W)": 49,
+    "Time Update": 45272.379537037035
+  },
+  {
+    "No.": 20,
+    "Device ID": "SP60-01",
+    "Current (A)": 4.08,
+    "Voltage (V)": 18.4,
+    "Power (W)": 75,
+    "Time Update": 45272.40025462963
+  },
+  {
+    "No.": 21,
+    "Device ID": "SP60-01",
+    "Current (A)": 2.15,
+    "Voltage (V)": 18.6,
+    "Power (W)": 40,
+    "Time Update": 45272.420960648145
+  },
+  {
+    "No.": 22,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.93,
+    "Voltage (V)": 19.2,
+    "Power (W)": 37,
+    "Time Update": 45272.44259259259
+  },
+  {
+    "No.": 23,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.82,
+    "Voltage (V)": 19.2,
+    "Power (W)": 35,
+    "Time Update": 45272.4459375
+  },
+  {
+    "No.": 24,
+    "Device ID": "SP60-01",
+    "Current (A)": 5.74,
+    "Voltage (V)": 18.3,
+    "Power (W)": 105,
+    "Time Update": 45272.46665509259
+  },
+  {
+    "No.": 25,
+    "Device ID": "SP60-01",
+    "Current (A)": 2.48,
+    "Voltage (V)": 17.8,
+    "Power (W)": 44,
+    "Time Update": 45272.48737268519
+  },
+  {
+    "No.": 26,
+    "Device ID": "SP60-01",
+    "Current (A)": 3.71,
+    "Voltage (V)": 18.3,
+    "Power (W)": 68,
+    "Time Update": 45272.50806712963
+  },
+  {
+    "No.": 27,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.92,
+    "Voltage (V)": 19,
+    "Power (W)": 17,
+    "Time Update": 45272.52878472222
+  },
+  {
+    "No.": 28,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 13.5,
+    "Power (W)": 0,
+    "Time Update": 45272.54950231482
+  },
+  {
+    "No.": 29,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 17.3,
+    "Power (W)": 0,
+    "Time Update": 45272.57021990741
+  },
+  {
+    "No.": 30,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 17.8,
+    "Power (W)": 0,
+    "Time Update": 45272.59092592593
+  },
+  {
+    "No.": 31,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.05,
+    "Voltage (V)": 18.1,
+    "Power (W)": 1,
+    "Time Update": 45272.61164351852
+  },
+  {
+    "No.": 32,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 18.2,
+    "Power (W)": 0,
+    "Time Update": 45272.632361111115
+  },
+  {
+    "No.": 33,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.13,
+    "Voltage (V)": 15.2,
+    "Power (W)": 2,
+    "Time Update": 45272.65306712963
+  },
+  {
+    "No.": 34,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.17,
+    "Voltage (V)": 17.3,
+    "Power (W)": 3,
+    "Time Update": 45272.673784722225
+  },
+  {
+    "No.": 35,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.22,
+    "Voltage (V)": 18.7,
+    "Power (W)": 4,
+    "Time Update": 45272.694502314815
+  },
+  {
+    "No.": 36,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.27,
+    "Voltage (V)": 18.6,
+    "Power (W)": 5,
+    "Time Update": 45272.715219907404
+  },
+  {
+    "No.": 37,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.27,
+    "Voltage (V)": 15.2,
+    "Power (W)": 4,
+    "Time Update": 45272.735925925925
+  },
+  {
+    "No.": 38,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.11,
+    "Voltage (V)": 17.8,
+    "Power (W)": 2,
+    "Time Update": 45272.75664351852
+  },
+  {
+    "No.": 39,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.06,
+    "Voltage (V)": 16.2,
+    "Power (W)": 1,
+    "Time Update": 45272.77736111111
+  },
+  {
+    "No.": 40,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.8,
+    "Power (W)": 0,
+    "Time Update": 45272.7980787037
+  },
+  {
+    "No.": 41,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.4,
+    "Power (W)": 0,
+    "Time Update": 45272.81878472222
+  },
+  {
+    "No.": 42,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45272.83950231481
+  },
+  {
+    "No.": 43,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45272.86021990741
+  },
+  {
+    "No.": 44,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.4,
+    "Power (W)": 0,
+    "Time Update": 45272.88092592593
+  },
+  {
+    "No.": 45,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.4,
+    "Power (W)": 0,
+    "Time Update": 45272.90164351852
+  },
+  {
+    "No.": 46,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.4,
+    "Power (W)": 0,
+    "Time Update": 45272.92236111111
+  },
+  {
+    "No.": 47,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.4,
+    "Power (W)": 0,
+    "Time Update": 45272.943078703705
+  },
+  {
+    "No.": 48,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45272.963784722226
+  },
+  {
+    "No.": 49,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45272.984502314815
+  },
+  {
+    "No.": 50,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45273.005219907405
+  },
+  {
+    "No.": 51,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45273.025925925926
+  },
+  {
+    "No.": 52,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45273.046643518515
+  },
+  {
+    "No.": 53,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45273.06736111111
+  },
+  {
+    "No.": 54,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45273.0880787037
+  },
+  {
+    "No.": 55,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45273.10878472222
+  },
+  {
+    "No.": 56,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45273.12950231481
+  },
+  {
+    "No.": 57,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45273.15021990741
+  },
+  {
+    "No.": 58,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45273.1709375
+  },
+  {
+    "No.": 59,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45273.19164351852
+  },
+  {
+    "No.": 60,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45273.21236111111
+  },
+  {
+    "No.": 61,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45273.23306712963
+  },
+  {
+    "No.": 62,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.2,
+    "Power (W)": 0,
+    "Time Update": 45273.25377314815
+  },
+  {
+    "No.": 63,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 1.3,
+    "Power (W)": 0,
+    "Time Update": 45273.27449074074
+  },
+  {
+    "No.": 64,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 17.8,
+    "Power (W)": 0,
+    "Time Update": 45273.29520833334
+  },
+  {
+    "No.": 65,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.33,
+    "Voltage (V)": 18.2,
+    "Power (W)": 6,
+    "Time Update": 45273.31592592593
+  },
+  {
+    "No.": 66,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.22,
+    "Voltage (V)": 19.3,
+    "Power (W)": 24,
+    "Time Update": 45273.33663194445
+  },
+  {
+    "No.": 67,
+    "Device ID": "SP60-01",
+    "Current (A)": 2.14,
+    "Voltage (V)": 19.2,
+    "Power (W)": 41,
+    "Time Update": 45273.35734953704
+  },
+  {
+    "No.": 68,
+    "Device ID": "SP60-01",
+    "Current (A)": 2.32,
+    "Voltage (V)": 18.6,
+    "Power (W)": 43,
+    "Time Update": 45273.378067129626
+  },
+  {
+    "No.": 69,
+    "Device ID": "SP60-01",
+    "Current (A)": 3.13,
+    "Voltage (V)": 18.7,
+    "Power (W)": 59,
+    "Time Update": 45273.39877314815
+  },
+  {
+    "No.": 70,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.19,
+    "Voltage (V)": 18.1,
+    "Power (W)": 22,
+    "Time Update": 45273.419490740744
+  },
+  {
+    "No.": 71,
+    "Device ID": "SP60-01",
+    "Current (A)": 5.45,
+    "Voltage (V)": 18.5,
+    "Power (W)": 101,
+    "Time Update": 45273.44020833333
+  },
+  {
+    "No.": 72,
+    "Device ID": "SP60-01",
+    "Current (A)": 6.64,
+    "Voltage (V)": 17.2,
+    "Power (W)": 114,
+    "Time Update": 45273.46092592592
+  },
+  {
+    "No.": 73,
+    "Device ID": "SP60-01",
+    "Current (A)": 6.54,
+    "Voltage (V)": 18.1,
+    "Power (W)": 118,
+    "Time Update": 45273.48163194444
+  },
+  {
+    "No.": 74,
+    "Device ID": "SP60-01",
+    "Current (A)": 7.57,
+    "Voltage (V)": 18.5,
+    "Power (W)": 140,
+    "Time Update": 45273.50234953704
+  },
+  {
+    "No.": 75,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.44,
+    "Voltage (V)": 17.8,
+    "Power (W)": 26,
+    "Time Update": 45273.52306712963
+  },
+  {
+    "No.": 76,
+    "Device ID": "SP60-01",
+    "Current (A)": 7.12,
+    "Voltage (V)": 17.2,
+    "Power (W)": 122,
+    "Time Update": 45273.54378472222
+  },
+  {
+    "No.": 77,
+    "Device ID": "SP60-01",
+    "Current (A)": 6.86,
+    "Voltage (V)": 17.1,
+    "Power (W)": 117,
+    "Time Update": 45273.56449074074
+  },
+  {
+    "No.": 78,
+    "Device ID": "SP60-01",
+    "Current (A)": 6.84,
+    "Voltage (V)": 17.3,
+    "Power (W)": 118,
+    "Time Update": 45273.58519675926
+  },
+  {
+    "No.": 79,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.2,
+    "Voltage (V)": 18,
+    "Power (W)": 22,
+    "Time Update": 45273.60591435185
+  },
+  {
+    "No.": 80,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.01,
+    "Voltage (V)": 18.2,
+    "Power (W)": 18,
+    "Time Update": 45273.62662037037
+  },
+  {
+    "No.": 81,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.74,
+    "Voltage (V)": 16.6,
+    "Power (W)": 12,
+    "Time Update": 45273.64733796296
+  },
+  {
+    "No.": 82,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.43,
+    "Voltage (V)": 16.5,
+    "Power (W)": 7,
+    "Time Update": 45273.66805555556
+  },
+  {
+    "No.": 83,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.06,
+    "Voltage (V)": 14.9,
+    "Power (W)": 1,
+    "Time Update": 45273.68877314815
+  },
+  {
+    "No.": 84,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.26,
+    "Voltage (V)": 15.3,
+    "Power (W)": 4,
+    "Time Update": 45273.70947916667
+  },
+  {
+    "No.": 85,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.23,
+    "Voltage (V)": 17.8,
+    "Power (W)": 4,
+    "Time Update": 45273.73019675926
+  },
+  {
+    "No.": 86,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.12,
+    "Voltage (V)": 16.6,
+    "Power (W)": 2,
+    "Time Update": 45273.750914351855
+  },
+  {
+    "No.": 87,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.06,
+    "Voltage (V)": 17.1,
+    "Power (W)": 1,
+    "Time Update": 45273.77162037037
+  },
+  {
+    "No.": 88,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 13.9,
+    "Power (W)": 0,
+    "Time Update": 45273.792337962965
+  },
+  {
+    "No.": 89,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 1.2,
+    "Power (W)": 0,
+    "Time Update": 45273.813055555554
+  },
+  {
+    "No.": 90,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.5,
+    "Power (W)": 0,
+    "Time Update": 45273.83377314815
+  },
+  {
+    "No.": 91,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.5,
+    "Power (W)": 0,
+    "Time Update": 45273.854479166665
+  },
+  {
+    "No.": 92,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.4,
+    "Power (W)": 0,
+    "Time Update": 45273.87519675926
+  },
+  {
+    "No.": 93,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45273.89591435185
+  },
+  {
+    "No.": 94,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45273.91662037037
+  },
+  {
+    "No.": 95,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.4,
+    "Power (W)": 0,
+    "Time Update": 45273.93733796296
+  },
+  {
+    "No.": 96,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.4,
+    "Power (W)": 0,
+    "Time Update": 45273.95805555556
+  },
+  {
+    "No.": 97,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45273.97877314815
+  },
+  {
+    "No.": 98,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 0.3,
+    "Power (W)": 0,
+    "Time Update": 45273.99947916667
+  }
+]

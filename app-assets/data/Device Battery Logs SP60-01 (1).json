@@ -1,0 +1,786 @@
+[
+  {
+    "No.": 1,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 29,
+    "Time Update": 45272.00667824074
+  },
+  {
+    "No.": 2,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 29,
+    "Time Update": 45272.027395833335
+  },
+  {
+    "No.": 3,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 29,
+    "Time Update": 45272.048101851855
+  },
+  {
+    "No.": 4,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 29,
+    "Time Update": 45272.068819444445
+  },
+  {
+    "No.": 5,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 29,
+    "Time Update": 45272.089537037034
+  },
+  {
+    "No.": 6,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 28,
+    "Time Update": 45272.11025462963
+  },
+  {
+    "No.": 7,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 28,
+    "Time Update": 45272.130960648145
+  },
+  {
+    "No.": 8,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 28,
+    "Time Update": 45272.15167824074
+  },
+  {
+    "No.": 9,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 28,
+    "Time Update": 45272.17239583333
+  },
+  {
+    "No.": 10,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 28,
+    "Time Update": 45272.19310185185
+  },
+  {
+    "No.": 11,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 28,
+    "Time Update": 45272.21381944444
+  },
+  {
+    "No.": 12,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 28,
+    "Time Update": 45272.23453703704
+  },
+  {
+    "No.": 13,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 28,
+    "Time Update": 45272.25525462963
+  },
+  {
+    "No.": 14,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 28,
+    "Time Update": 45272.27596064815
+  },
+  {
+    "No.": 15,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 13.1,
+    "Temperature (C)": 27,
+    "Time Update": 45272.29667824074
+  },
+  {
+    "No.": 16,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.12,
+    "Voltage (V)": 13.1,
+    "Temperature (C)": 27,
+    "Time Update": 45272.317395833335
+  },
+  {
+    "No.": 17,
+    "Device ID": "SP60-01",
+    "Current (A)": 2.69,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 29,
+    "Time Update": 45272.338113425925
+  },
+  {
+    "No.": 18,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.17,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 31,
+    "Time Update": 45272.358819444446
+  },
+  {
+    "No.": 19,
+    "Device ID": "SP60-01",
+    "Current (A)": 3.58,
+    "Voltage (V)": 13.5,
+    "Temperature (C)": 34,
+    "Time Update": 45272.379537037035
+  },
+  {
+    "No.": 20,
+    "Device ID": "SP60-01",
+    "Current (A)": 5.32,
+    "Voltage (V)": 13.7,
+    "Temperature (C)": 40,
+    "Time Update": 45272.40025462963
+  },
+  {
+    "No.": 21,
+    "Device ID": "SP60-01",
+    "Current (A)": 2.88,
+    "Voltage (V)": 13.5,
+    "Temperature (C)": 38,
+    "Time Update": 45272.420960648145
+  },
+  {
+    "No.": 22,
+    "Device ID": "SP60-01",
+    "Current (A)": 2.66,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 35,
+    "Time Update": 45272.44259259259
+  },
+  {
+    "No.": 23,
+    "Device ID": "SP60-01",
+    "Current (A)": 2.53,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 34,
+    "Time Update": 45272.4459375
+  },
+  {
+    "No.": 24,
+    "Device ID": "SP60-01",
+    "Current (A)": 7.38,
+    "Voltage (V)": 13.8,
+    "Temperature (C)": 41,
+    "Time Update": 45272.46665509259
+  },
+  {
+    "No.": 25,
+    "Device ID": "SP60-01",
+    "Current (A)": 3.19,
+    "Voltage (V)": 13.6,
+    "Temperature (C)": 48,
+    "Time Update": 45272.48737268519
+  },
+  {
+    "No.": 26,
+    "Device ID": "SP60-01",
+    "Current (A)": 4.78,
+    "Voltage (V)": 13.8,
+    "Temperature (C)": 43,
+    "Time Update": 45272.50806712963
+  },
+  {
+    "No.": 27,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.29,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 34,
+    "Time Update": 45272.52878472222
+  },
+  {
+    "No.": 28,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 29,
+    "Time Update": 45272.54950231482
+  },
+  {
+    "No.": 29,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.01,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 27,
+    "Time Update": 45272.57021990741
+  },
+  {
+    "No.": 30,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.02,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 26,
+    "Time Update": 45272.59092592593
+  },
+  {
+    "No.": 31,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.1,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 26,
+    "Time Update": 45272.61164351852
+  },
+  {
+    "No.": 32,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.03,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 26,
+    "Time Update": 45272.632361111115
+  },
+  {
+    "No.": 33,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.17,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 26,
+    "Time Update": 45272.65306712963
+  },
+  {
+    "No.": 34,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.23,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 26,
+    "Time Update": 45272.673784722225
+  },
+  {
+    "No.": 35,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.28,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 27,
+    "Time Update": 45272.694502314815
+  },
+  {
+    "No.": 36,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.36,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 27,
+    "Time Update": 45272.715219907404
+  },
+  {
+    "No.": 37,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.29,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 27,
+    "Time Update": 45272.735925925925
+  },
+  {
+    "No.": 38,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.18,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 27,
+    "Time Update": 45272.75664351852
+  },
+  {
+    "No.": 39,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.06,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 27,
+    "Time Update": 45272.77736111111
+  },
+  {
+    "No.": 40,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 26,
+    "Time Update": 45272.7980787037
+  },
+  {
+    "No.": 41,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 28,
+    "Time Update": 45272.81878472222
+  },
+  {
+    "No.": 42,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 29,
+    "Time Update": 45272.83950231481
+  },
+  {
+    "No.": 43,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.8,
+    "Temperature (C)": 29,
+    "Time Update": 45272.86021990741
+  },
+  {
+    "No.": 44,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.8,
+    "Temperature (C)": 29,
+    "Time Update": 45272.88092592593
+  },
+  {
+    "No.": 45,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.8,
+    "Temperature (C)": 29,
+    "Time Update": 45272.90164351852
+  },
+  {
+    "No.": 46,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.8,
+    "Temperature (C)": 29,
+    "Time Update": 45272.92236111111
+  },
+  {
+    "No.": 47,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.7,
+    "Temperature (C)": 29,
+    "Time Update": 45272.943078703705
+  },
+  {
+    "No.": 48,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.7,
+    "Temperature (C)": 29,
+    "Time Update": 45272.963784722226
+  },
+  {
+    "No.": 49,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.8,
+    "Temperature (C)": 28,
+    "Time Update": 45272.984502314815
+  },
+  {
+    "No.": 50,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.8,
+    "Temperature (C)": 28,
+    "Time Update": 45273.005219907405
+  },
+  {
+    "No.": 51,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.8,
+    "Temperature (C)": 28,
+    "Time Update": 45273.025925925926
+  },
+  {
+    "No.": 52,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.8,
+    "Temperature (C)": 27,
+    "Time Update": 45273.046643518515
+  },
+  {
+    "No.": 53,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 27,
+    "Time Update": 45273.06736111111
+  },
+  {
+    "No.": 54,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 27,
+    "Time Update": 45273.0880787037
+  },
+  {
+    "No.": 55,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 27,
+    "Time Update": 45273.10878472222
+  },
+  {
+    "No.": 56,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 27,
+    "Time Update": 45273.12950231481
+  },
+  {
+    "No.": 57,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 27,
+    "Time Update": 45273.15021990741
+  },
+  {
+    "No.": 58,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 27,
+    "Time Update": 45273.1709375
+  },
+  {
+    "No.": 59,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 27,
+    "Time Update": 45273.19164351852
+  },
+  {
+    "No.": 60,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 26,
+    "Time Update": 45273.21236111111
+  },
+  {
+    "No.": 61,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 26,
+    "Time Update": 45273.23306712963
+  },
+  {
+    "No.": 62,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 26,
+    "Time Update": 45273.25377314815
+  },
+  {
+    "No.": 63,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.8,
+    "Temperature (C)": 26,
+    "Time Update": 45273.27449074074
+  },
+  {
+    "No.": 64,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.01,
+    "Voltage (V)": 13,
+    "Temperature (C)": 26,
+    "Time Update": 45273.29520833334
+  },
+  {
+    "No.": 65,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.49,
+    "Voltage (V)": 13.1,
+    "Temperature (C)": 25,
+    "Time Update": 45273.31592592593
+  },
+  {
+    "No.": 66,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.76,
+    "Voltage (V)": 13.2,
+    "Temperature (C)": 29,
+    "Time Update": 45273.33663194445
+  },
+  {
+    "No.": 67,
+    "Device ID": "SP60-01",
+    "Current (A)": 3,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 34,
+    "Time Update": 45273.35734953704
+  },
+  {
+    "No.": 68,
+    "Device ID": "SP60-01",
+    "Current (A)": 3.13,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 39,
+    "Time Update": 45273.378067129626
+  },
+  {
+    "No.": 69,
+    "Device ID": "SP60-01",
+    "Current (A)": 4.19,
+    "Voltage (V)": 13.5,
+    "Temperature (C)": 39,
+    "Time Update": 45273.39877314815
+  },
+  {
+    "No.": 70,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.53,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 42,
+    "Time Update": 45273.419490740744
+  },
+  {
+    "No.": 71,
+    "Device ID": "SP60-01",
+    "Current (A)": 7.1,
+    "Voltage (V)": 13.8,
+    "Temperature (C)": 47,
+    "Time Update": 45273.44020833333
+  },
+  {
+    "No.": 72,
+    "Device ID": "SP60-01",
+    "Current (A)": 8.02,
+    "Voltage (V)": 13.9,
+    "Temperature (C)": 50,
+    "Time Update": 45273.46092592592
+  },
+  {
+    "No.": 73,
+    "Device ID": "SP60-01",
+    "Current (A)": 8.29,
+    "Voltage (V)": 13.9,
+    "Temperature (C)": 50,
+    "Time Update": 45273.48163194444
+  },
+  {
+    "No.": 74,
+    "Device ID": "SP60-01",
+    "Current (A)": 9.72,
+    "Voltage (V)": 14,
+    "Temperature (C)": 44,
+    "Time Update": 45273.50234953704
+  },
+  {
+    "No.": 75,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.84,
+    "Voltage (V)": 13.5,
+    "Temperature (C)": 46,
+    "Time Update": 45273.52306712963
+  },
+  {
+    "No.": 76,
+    "Device ID": "SP60-01",
+    "Current (A)": 8.49,
+    "Voltage (V)": 14,
+    "Temperature (C)": 47,
+    "Time Update": 45273.54378472222
+  },
+  {
+    "No.": 77,
+    "Device ID": "SP60-01",
+    "Current (A)": 8.09,
+    "Voltage (V)": 14.1,
+    "Temperature (C)": 55,
+    "Time Update": 45273.56449074074
+  },
+  {
+    "No.": 78,
+    "Device ID": "SP60-01",
+    "Current (A)": 8.16,
+    "Voltage (V)": 14.1,
+    "Temperature (C)": 53,
+    "Time Update": 45273.58519675926
+  },
+  {
+    "No.": 79,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.59,
+    "Voltage (V)": 13.5,
+    "Temperature (C)": 45,
+    "Time Update": 45273.60591435185
+  },
+  {
+    "No.": 80,
+    "Device ID": "SP60-01",
+    "Current (A)": 1.32,
+    "Voltage (V)": 13.5,
+    "Temperature (C)": 40,
+    "Time Update": 45273.62662037037
+  },
+  {
+    "No.": 81,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.89,
+    "Voltage (V)": 13.5,
+    "Temperature (C)": 38,
+    "Time Update": 45273.64733796296
+  },
+  {
+    "No.": 82,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.54,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 33,
+    "Time Update": 45273.66805555556
+  },
+  {
+    "No.": 83,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.1,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 31,
+    "Time Update": 45273.68877314815
+  },
+  {
+    "No.": 84,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.28,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 29,
+    "Time Update": 45273.70947916667
+  },
+  {
+    "No.": 85,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.3,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 29,
+    "Time Update": 45273.73019675926
+  },
+  {
+    "No.": 86,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.18,
+    "Voltage (V)": 13.4,
+    "Temperature (C)": 29,
+    "Time Update": 45273.750914351855
+  },
+  {
+    "No.": 87,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.09,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 28,
+    "Time Update": 45273.77162037037
+  },
+  {
+    "No.": 88,
+    "Device ID": "SP60-01",
+    "Current (A)": 0.01,
+    "Voltage (V)": 13.3,
+    "Temperature (C)": 27,
+    "Time Update": 45273.792337962965
+  },
+  {
+    "No.": 89,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 13,
+    "Temperature (C)": 28,
+    "Time Update": 45273.813055555554
+  },
+  {
+    "No.": 90,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 13,
+    "Temperature (C)": 29,
+    "Time Update": 45273.83377314815
+  },
+  {
+    "No.": 91,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 13,
+    "Temperature (C)": 29,
+    "Time Update": 45273.854479166665
+  },
+  {
+    "No.": 92,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 13,
+    "Temperature (C)": 29,
+    "Time Update": 45273.87519675926
+  },
+  {
+    "No.": 93,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 13,
+    "Temperature (C)": 30,
+    "Time Update": 45273.89591435185
+  },
+  {
+    "No.": 94,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 30,
+    "Time Update": 45273.91662037037
+  },
+  {
+    "No.": 95,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 30,
+    "Time Update": 45273.93733796296
+  },
+  {
+    "No.": 96,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 30,
+    "Time Update": 45273.95805555556
+  },
+  {
+    "No.": 97,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 30,
+    "Time Update": 45273.97877314815
+  },
+  {
+    "No.": 98,
+    "Device ID": "SP60-01",
+    "Current (A)": 0,
+    "Voltage (V)": 12.9,
+    "Temperature (C)": 29,
+    "Time Update": 45273.99947916667
+  }
+]
