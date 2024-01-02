@@ -13,18 +13,18 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
 .hello{
     position:absolute;
     height:auto;
-    left: 10px;
+    left: 60px;
     width:50px;
 }
 .hello2{
     position:absolute;
     height: auto;
-    left: 80px;
+    left: 130px;
     width:55px;
 }
 .hello3{
     position:absolute;
     height:auto;
-    left: 155px;
+    left: 200px;
     width:50px;
 }
