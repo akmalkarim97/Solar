@@ -221,7 +221,7 @@ $(function () {
 
   if (dt_responsive_table.length) {
     var dt_responsive = dt_responsive_table.DataTable({
-      ajax: assetPath + 'data/table-datatable.json',
+      ajax: assetPath + 'data/data_alert_weststar',
       columns: [
         { data: 'responsive_id' },
         { data: 'full_name' },
