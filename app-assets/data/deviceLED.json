@@ -1,0 +1,1028 @@
+[
+  {
+    "No.": 1,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45271.67524305556
+  },
+  {
+    "No.": 2,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45271.69596064815
+  },
+  {
+    "No.": 3,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45271.716678240744
+  },
+  {
+    "No.": 4,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45271.73738425926
+  },
+  {
+    "No.": 5,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45271.758101851854
+  },
+  {
+    "No.": 6,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45271.778819444444
+  },
+  {
+    "No.": 7,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45271.79953703703
+  },
+  {
+    "No.": 8,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45271.820243055554
+  },
+  {
+    "No.": 9,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45271.84096064815
+  },
+  {
+    "No.": 10,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45271.86167824074
+  },
+  {
+    "No.": 11,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45271.88239583333
+  },
+  {
+    "No.": 12,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45271.90310185185
+  },
+  {
+    "No.": 13,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45271.92381944445
+  },
+  {
+    "No.": 14,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45271.94453703704
+  },
+  {
+    "No.": 15,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45271.96525462963
+  },
+  {
+    "No.": 16,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.6,
+    "LED Current (A)": 0.72,
+    "LED Power (W)": 30,
+    "Light Brightness (%)": 50,
+    "Time Update": 45271.98596064815
+  },
+  {
+    "No.": 17,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.6,
+    "LED Current (A)": 0.72,
+    "LED Power (W)": 30,
+    "Light Brightness (%)": 50,
+    "Time Update": 45272.00667824074
+  },
+  {
+    "No.": 18,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.7,
+    "LED Current (A)": 0.72,
+    "LED Power (W)": 30,
+    "Light Brightness (%)": 50,
+    "Time Update": 45272.027395833335
+  },
+  {
+    "No.": 19,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.7,
+    "LED Current (A)": 0.72,
+    "LED Power (W)": 30,
+    "Light Brightness (%)": 50,
+    "Time Update": 45272.048101851855
+  },
+  {
+    "No.": 20,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45272.068819444445
+  },
+  {
+    "No.": 21,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45272.089537037034
+  },
+  {
+    "No.": 22,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45272.11025462963
+  },
+  {
+    "No.": 23,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45272.130960648145
+  },
+  {
+    "No.": 24,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45272.15167824074
+  },
+  {
+    "No.": 25,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45272.17239583333
+  },
+  {
+    "No.": 26,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45272.19310185185
+  },
+  {
+    "No.": 27,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45272.21381944444
+  },
+  {
+    "No.": 28,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45272.23453703704
+  },
+  {
+    "No.": 29,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45272.25525462963
+  },
+  {
+    "No.": 30,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45272.27596064815
+  },
+  {
+    "No.": 31,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.29667824074
+  },
+  {
+    "No.": 32,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.317395833335
+  },
+  {
+    "No.": 33,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.338113425925
+  },
+  {
+    "No.": 34,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.358819444446
+  },
+  {
+    "No.": 35,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.379537037035
+  },
+  {
+    "No.": 36,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.40025462963
+  },
+  {
+    "No.": 37,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.420960648145
+  },
+  {
+    "No.": 38,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.44259259259
+  },
+  {
+    "No.": 39,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.4459375
+  },
+  {
+    "No.": 40,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.46665509259
+  },
+  {
+    "No.": 41,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.48737268519
+  },
+  {
+    "No.": 42,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.50806712963
+  },
+  {
+    "No.": 43,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.52878472222
+  },
+  {
+    "No.": 44,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.54950231482
+  },
+  {
+    "No.": 45,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.57021990741
+  },
+  {
+    "No.": 46,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.59092592593
+  },
+  {
+    "No.": 47,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.61164351852
+  },
+  {
+    "No.": 48,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.632361111115
+  },
+  {
+    "No.": 49,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.65306712963
+  },
+  {
+    "No.": 50,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.673784722225
+  },
+  {
+    "No.": 51,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.694502314815
+  },
+  {
+    "No.": 52,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.715219907404
+  },
+  {
+    "No.": 53,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.735925925925
+  },
+  {
+    "No.": 54,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.75664351852
+  },
+  {
+    "No.": 55,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.77736111111
+  },
+  {
+    "No.": 56,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45272.7980787037
+  },
+  {
+    "No.": 57,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42.1,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45272.81878472222
+  },
+  {
+    "No.": 58,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45272.83950231481
+  },
+  {
+    "No.": 59,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42.1,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45272.86021990741
+  },
+  {
+    "No.": 60,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42.1,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45272.88092592593
+  },
+  {
+    "No.": 61,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42.1,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45272.90164351852
+  },
+  {
+    "No.": 62,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42.1,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45272.92236111111
+  },
+  {
+    "No.": 63,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42.1,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45272.943078703705
+  },
+  {
+    "No.": 64,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 42.1,
+    "LED Current (A)": 1.14,
+    "LED Power (W)": 48,
+    "Light Brightness (%)": 80,
+    "Time Update": 45272.963784722226
+  },
+  {
+    "No.": 65,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.7,
+    "LED Current (A)": 0.72,
+    "LED Power (W)": 30,
+    "Light Brightness (%)": 50,
+    "Time Update": 45272.984502314815
+  },
+  {
+    "No.": 66,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.7,
+    "LED Current (A)": 0.72,
+    "LED Power (W)": 30,
+    "Light Brightness (%)": 50,
+    "Time Update": 45273.005219907405
+  },
+  {
+    "No.": 67,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.7,
+    "LED Current (A)": 0.72,
+    "LED Power (W)": 30,
+    "Light Brightness (%)": 50,
+    "Time Update": 45273.025925925926
+  },
+  {
+    "No.": 68,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.7,
+    "LED Current (A)": 0.72,
+    "LED Power (W)": 30,
+    "Light Brightness (%)": 50,
+    "Time Update": 45273.046643518515
+  },
+  {
+    "No.": 69,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45273.06736111111
+  },
+  {
+    "No.": 70,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45273.0880787037
+  },
+  {
+    "No.": 71,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45273.10878472222
+  },
+  {
+    "No.": 72,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45273.12950231481
+  },
+  {
+    "No.": 73,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45273.15021990741
+  },
+  {
+    "No.": 74,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45273.1709375
+  },
+  {
+    "No.": 75,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45273.19164351852
+  },
+  {
+    "No.": 76,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45273.21236111111
+  },
+  {
+    "No.": 77,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45273.23306712963
+  },
+  {
+    "No.": 78,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.3,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45273.25377314815
+  },
+  {
+    "No.": 79,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.4,
+    "LED Current (A)": 0.44,
+    "LED Power (W)": 18,
+    "Light Brightness (%)": 30,
+    "Time Update": 45273.27449074074
+  },
+  {
+    "No.": 80,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.29520833334
+  },
+  {
+    "No.": 81,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.31592592593
+  },
+  {
+    "No.": 82,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.33663194445
+  },
+  {
+    "No.": 83,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.35734953704
+  },
+  {
+    "No.": 84,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.378067129626
+  },
+  {
+    "No.": 85,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.39877314815
+  },
+  {
+    "No.": 86,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.419490740744
+  },
+  {
+    "No.": 87,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.44020833333
+  },
+  {
+    "No.": 88,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.46092592592
+  },
+  {
+    "No.": 89,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.48163194444
+  },
+  {
+    "No.": 90,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.50234953704
+  },
+  {
+    "No.": 91,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.52306712963
+  },
+  {
+    "No.": 92,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.54378472222
+  },
+  {
+    "No.": 93,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.56449074074
+  },
+  {
+    "No.": 94,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.58519675926
+  },
+  {
+    "No.": 95,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.60591435185
+  },
+  {
+    "No.": 96,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.62662037037
+  },
+  {
+    "No.": 97,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.64733796296
+  },
+  {
+    "No.": 98,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.66805555556
+  },
+  {
+    "No.": 99,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.68877314815
+  },
+  {
+    "No.": 100,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.70947916667
+  },
+  {
+    "No.": 101,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.73019675926
+  },
+  {
+    "No.": 102,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.750914351855
+  },
+  {
+    "No.": 103,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.77162037037
+  },
+  {
+    "No.": 104,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 0,
+    "LED Current (A)": 0,
+    "LED Power (W)": 0,
+    "Light Brightness (%)": 0,
+    "Time Update": 45273.792337962965
+  },
+  {
+    "No.": 105,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.9,
+    "LED Current (A)": 0.9,
+    "LED Power (W)": 38,
+    "Light Brightness (%)": 63,
+    "Time Update": 45273.813055555554
+  },
+  {
+    "No.": 106,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.9,
+    "LED Current (A)": 0.9,
+    "LED Power (W)": 38,
+    "Light Brightness (%)": 63,
+    "Time Update": 45273.83377314815
+  },
+  {
+    "No.": 107,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.8,
+    "LED Current (A)": 0.9,
+    "LED Power (W)": 38,
+    "Light Brightness (%)": 63,
+    "Time Update": 45273.854479166665
+  },
+  {
+    "No.": 108,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.8,
+    "LED Current (A)": 0.88,
+    "LED Power (W)": 37,
+    "Light Brightness (%)": 61,
+    "Time Update": 45273.87519675926
+  },
+  {
+    "No.": 109,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.8,
+    "LED Current (A)": 0.88,
+    "LED Power (W)": 37,
+    "Light Brightness (%)": 61,
+    "Time Update": 45273.89591435185
+  },
+  {
+    "No.": 110,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.7,
+    "LED Current (A)": 0.85,
+    "LED Power (W)": 35,
+    "Light Brightness (%)": 59,
+    "Time Update": 45273.91662037037
+  },
+  {
+    "No.": 111,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.7,
+    "LED Current (A)": 0.83,
+    "LED Power (W)": 35,
+    "Light Brightness (%)": 58,
+    "Time Update": 45273.93733796296
+  },
+  {
+    "No.": 112,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.7,
+    "LED Current (A)": 0.78,
+    "LED Power (W)": 33,
+    "Light Brightness (%)": 54,
+    "Time Update": 45273.95805555556
+  },
+  {
+    "No.": 113,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.4,
+    "LED Current (A)": 0.55,
+    "LED Power (W)": 23,
+    "Light Brightness (%)": 38,
+    "Time Update": 45273.97877314815
+  },
+  {
+    "No.": 114,
+    "Device ID": "SP60-01",
+    "LED Voltage (V)": 41.5,
+    "LED Current (A)": 0.55,
+    "LED Power (W)": 23,
+    "Light Brightness (%)": 38,
+    "Time Update": 45273.99947916667
+  }
+]
