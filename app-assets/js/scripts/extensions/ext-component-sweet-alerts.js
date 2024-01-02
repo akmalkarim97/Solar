@@ -478,7 +478,7 @@ $(function () {
         text: "You won't be able to revert this!",
         icon: 'warning',
         showCancelButton: true,
-        confirmButtonText: 'Yes, delete it!',
+        confirmButtonText: 'Yes, Active it!',
         customClass: {
           confirmButton: 'btn btn-primary',
           cancelButton: 'btn btn-outline-danger ml-1'
@@ -488,8 +488,8 @@ $(function () {
         if (result.value) {
           Swal.fire({
             icon: 'success',
-            title: 'Deleted!',
-            text: 'Your file has been deleted.',
+            title: 'Running!',
+            text: 'Your Devices has been sucessfully active.',
             customClass: {
               confirmButton: 'btn btn-success'
             }
