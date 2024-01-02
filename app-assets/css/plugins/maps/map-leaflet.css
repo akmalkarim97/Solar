@@ -1,5 +1,5 @@
 .leaflet-map {
-  height: 400px;
+  height: 420px;
   z-index: 1; }
 
 html[data-textdirection='rtl'] .leaflet-map .leaflet-control-container .leaflet-left {
