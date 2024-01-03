@@ -73,6 +73,10 @@
                <img src="app-assets/images/logojohor/logo_puteriIskandar-transformed.png" class="hello">
                <img src="app-assets/images/logojohor/jatanegaralatest.png" class="hello2">
                <img src="app-assets/images/logojohor/jatajohor.png" class="hello3">
+               <!--<div class="customer-header">
+                  <h2>MAJLIS BANDARAYA ISKANDAR PUTERI</h2>
+               </div>-->
+               
                <!--<li class="nav-item dropdown dropdown-language"><a class="nav-link dropdown-toggle" id="dropdown-flag" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="selected-language">ALL</span></a>
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-flag"><a class="dropdown-item" href="javascript:void(0);" data-language="en"> ALL</a><a class="dropdown-item" href="javascript:void(0);" data-language="fr"> SIREH PARK</a><a class="dropdown-item" href="javascript:void(0);" data-language="de"> PULAI PERDANA</a></div>
                   </li>-->
@@ -485,16 +489,9 @@
                                                 <h4 class="card-title mb-25">Solar Logs</h4>
                                                 <span class="card-subtitle text-muted">Monitoring Solar Energy Production Data</span>
                                              </div>
-                                             <div class="d-flex align-items-center flex-wrap mt-sm-0 mt-1">
-                                                <h5 class="font-weight-bolder mb-0 mr-1">$ 100,000</h5>
-                                                <div class="badge badge-light-secondary">
-                                                   <i class="text-danger font-small-3" data-feather="arrow-down"></i>
-                                                   <span class="align-middle">20%</span>
-                                                </div>
-                                             </div>
                                           </div>
                                           <div class="card-body">
-                                             <div id="line-chart"></div>
+                                             <canvas class="line-chart-solar-ex chartjs" data-height="310"></canvas>
                                           </div>
                                        </div>
                                     </div>
@@ -508,16 +505,9 @@
                                                  <h4 class="card-title mb-25">Charge Logs</h4>
                                                  <span class="card-subtitle text-muted">IoT battery charging cycles</span>
                                               </div>
-                                              <div class="d-flex align-items-center flex-wrap mt-sm-0 mt-1">
-                                                 <h5 class="font-weight-bolder mb-0 mr-1">$ 100,000</h5>
-                                                 <div class="badge badge-light-secondary">
-                                                    <i class="text-danger font-small-3" data-feather="arrow-down"></i>
-                                                    <span class="align-middle">20%</span>
-                                                 </div>
-                                              </div>
                                            </div>
                                            <div class="card-body">
-                                              <div id="line-chart"></div>
+                                             <canvas class="line-chart-charge-ex chartjs" data-height="310"></canvas>
                                            </div>
                                         </div>
                                      </div>
@@ -531,16 +521,9 @@
                                                  <h4 class="card-title mb-25">Battery Logs</h4>
                                                  <span class="card-subtitle text-muted">Battery performance IoT System</span>
                                               </div>
-                                              <div class="d-flex align-items-center flex-wrap mt-sm-0 mt-1">
-                                                 <h5 class="font-weight-bolder mb-0 mr-1">$ 100,000</h5>
-                                                 <div class="badge badge-light-secondary">
-                                                    <i class="text-danger font-small-3" data-feather="arrow-down"></i>
-                                                    <span class="align-middle">20%</span>
-                                                 </div>
-                                              </div>
                                            </div>
                                            <div class="card-body">
-                                              <div id="line-chart"></div>
+                                             <canvas class="line-chart-battery-ex chartjs" data-height="310"></canvas>
                                            </div>
                                         </div>
                                      </div>
@@ -554,16 +537,9 @@
                                                  <h4 class="card-title mb-25">LED Logs</h4>
                                                  <span class="card-subtitle text-muted"> LED device power consumption</span>
                                               </div>
-                                              <div class="d-flex align-items-center flex-wrap mt-sm-0 mt-1">
-                                                 <h5 class="font-weight-bolder mb-0 mr-1">$ 100,000</h5>
-                                                 <div class="badge badge-light-secondary">
-                                                    <i class="text-danger font-small-3" data-feather="arrow-down"></i>
-                                                    <span class="align-middle">20%</span>
-                                                 </div>
-                                              </div>
                                            </div>
                                            <div class="card-body">
-                                              <div id="line-chart-led"></div>
+                                             <canvas class="line-chart-led-ex chartjs" data-height="310"></canvas>
                                            </div>
                                         </div>
                                      </div>
@@ -651,8 +627,10 @@
       <script src="app-assets/js/scripts/forms/form-number-input.js"></script>
       <script src="app-assets/js/scripts/components/components-dropdowns.js"></script>
       <script src="app-assets/js/scripts/forms/pickers/form-pickers.js"></script>
-      <script src="app-assets/js/scripts/charts/chart-chartjs.js"></script>
-      <script src="assets/js/linechart-ledlogs.js"></script>
+      <script src="assets/js/sirehpark/linechart-chartjs-solarlogs.js"></script>
+      <script src="assets/js/sirehpark/linechart-chartjs-ledlogs.js"></script>
+      <script src="assets/js/sirehpark/linechart-chartjs-batterylogs.js"></script>
+      <script src="assets/js/sirehpark/linechart-chartjs-chargelogs.js"></script>
       <!-- END: Page Vendor JS-->
       <script>
          $(window).on('load', function() {
