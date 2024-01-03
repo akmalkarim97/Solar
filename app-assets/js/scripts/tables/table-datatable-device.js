@@ -36,16 +36,43 @@ $(function () {
 
     return adjustValue();
 }
-function switchDevices(cond) {
-  let lightdevices = cond.lightdevices;
 
-  if (lightdevices === 'ON') {
-    document.getElementById("img").src= 'app-assets/images/icons/lighton_bulb.png';
+  //Light bulb on or off
+  const deltaIndicator = (params) => {
+    const element = document.createElement('span');
+    const imageElement = document.createElement('img');
+
+    // visually indicate if this device value is on or off
+    if (params.value =="ON") {
+      imageElement.src ='app-assets/images/icons/lighton_bulb.png';
   } else {
-    document.getElementById("img").src = 'app-assets/images/icons/light_off.png';
+    imageElement.src ='app-assets/images/icons/light_off.png';
   }
+  element.appendChild(imageElement);
+  return element;
+};
 
-} 
+  //connectivity
+  const Barconnection = (params) => {
+    const element = document.createElement('span');
+    const imageElement = document.createElement('img');
+
+    // visually indicate if this device value is on or off
+    if (params.value >= 75) {
+      imageElement.src ='app-assets/images/icons/BestConnection.png';
+  } else if(params.value >= 50){
+    imageElement.src ='app-assets/images/icons/goodconnection.png';
+  }
+    else if(params.value >= 25){
+    imageElement.src ='app-assets/images/icons/averageconnection.png';
+  }
+    else{
+      imageElement.src ='app-assets/images/icons/weakconnection.png';
+    }
+  element.appendChild(imageElement);
+  element.appendChild(document.createTextNode(params.value));
+  return element;
+};
                  
 
   /*** COLUMN DEFINE ***/
@@ -96,12 +123,20 @@ function switchDevices(cond) {
       cellRenderer: batteryLevelRenderer,
      },
     {
-      headerName: 'Solar Effiency',
-      field: 'connectivity',
+      headerName: 'Solar Voltage(V)',
+      field: 'solar voltage',
       editable: true,
       sortable: true,
       filter: true,
-      width: 180
+      width: 190
+    },
+    {
+      headerName: 'Solar Power(w)',
+      field: 'solar power',
+      editable: true,
+      sortable: true,
+      filter: true,
+      width: 190
     },
     {
       headerName: 'Connectivity',
@@ -109,12 +144,14 @@ function switchDevices(cond) {
       editable: true,
       sortable: true,
       filter: true,
-      width: 180
+      width: 180,
+      cellRenderer: Barconnection
     },
     {
       headerName: 'Light Devices',
       field: 'light devices',
-      width: 180
+      width: 180,
+      cellRenderer: deltaIndicator
     },
     {
       headerName: 'Time Updates',
