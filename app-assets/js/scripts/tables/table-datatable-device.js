@@ -131,7 +131,7 @@ $(function () {
       width: 190
     },
     {
-      headerName: 'Solar Power(w)',
+      headerName: 'Solar Power(W)',
       field: 'solar power',
       editable: true,
       sortable: true,
