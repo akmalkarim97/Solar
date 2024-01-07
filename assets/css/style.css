@@ -28,3 +28,9 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
     left: 200px;
     width:50px;
 }
+
+.centered-div {
+    display: flex;
+    left : 230px;
+    margin: auto;
+   }
