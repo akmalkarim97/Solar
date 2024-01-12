@@ -18,7 +18,8 @@
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/charts/apexcharts.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/toastr.min.css">
-    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/datatables.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/ag-grid/ag-grid.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/ag-grid/ag-theme-material.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/maps/leaflet.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/responsive.bootstrap.min.css">
     <!-- END: Vendor CSS-->
@@ -36,6 +37,7 @@
     <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/vertical-menu.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/extensions/ext-component-toastr.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/pages/app-invoice-list.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/tables/table-ag-grid.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
@@ -257,17 +259,53 @@
                         </div>
                     </div>
                 </div>
+                <script>
+                    (function(d, s, id) {
+                        if (d.getElementById(id)) {
+                            if (window.__TOMORROW__) {
+                                window.__TOMORROW__.renderWidget();
+                            }
+                            return;
+                        }
+                        const fjs = d.getElementsByTagName(s)[0];
+                        const js = d.createElement(s);
+                        js.id = id;
+                        js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+            
+                        fjs.parentNode.insertBefore(js, fjs);
+                    })(document, 'script', 'tomorrow-sdk');
+                    </script>
+            
+                    <div class="tomorrow"
+                       data-location-id="076455"
+                       data-language="EN"
+                       data-unit-system="METRIC"
+                       data-skin="light"
+                       data-widget-type="upcoming"
+                       style="padding-bottom:22px;position:relative;"
+                    >
+                      <a
+                        href="https://www.tomorrow.io/weather-api/"
+                        rel="nofollow noopener noreferrer"
+                        target="_blank"
+                        style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+                      >
+                        <img
+                          alt="Powered by the Tomorrow.io Weather API"
+                          src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+                          width="250"
+                          height="18"
+                        />
+                      </a>
+                    </div>
                 <div class="content-body">
                     <section class="maps-leaflet">
                         <div class="row">
                             <!--start: weather-->
                             <div class="col-12">
                                 <div class="card">
-                                    <div class="card-header">
-                                        <h4 class="card-title">Weather</h4>
-                                    </div>
                                     <div class="card-body">
-                                        <div id="ww_dc788fecefd41" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2478"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'><a href="#" id="ww_dc788fecefd41_u" target="_blank">Html weather widget</a></div><script async src="https://app2.weatherwidget.org/js/?id=ww_dc788fecefd41"></script>
+                                        <div id="myGrid" class="aggrid ag-theme-material"></div>
                                     </div>
                                 </div>
                             </div>
@@ -276,6 +314,7 @@
                     </section>
     
                 </div>
+
             </div>
         </div>
         
@@ -303,8 +342,18 @@
     <script src="app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js"></script>
     <script src="app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
     <script src="app-assets/vendors/js/tables/datatable/responsive.bootstrap.min.js"></script>
+    <script src="app-assets/vendors/js/tables/ag-grid/ag-grid-community.min.noStyle.js"></script>
+    <script src="app-assets/vendors/js/extensions/wNumb.min.js"></script>
+    <script src="app-assets/vendors/js/extensions/nouislider.min.js"></script>
+    <script src="app-assets/vendors/js/forms/spinner/jquery.bootstrap-touchspin.js"></script>
+    <script src="app-assets/vendors/js/pickers/pickadate/picker.js"></script>
+    <script src="app-assets/vendors/js/pickers/pickadate/picker.date.js"></script>
+    <script src="app-assets/vendors/js/pickers/pickadate/picker.time.js"></script>
+    <script src="app-assets/vendors/js/pickers/pickadate/legacy.js"></script>
     <script src="app-assets/vendors/js/charts/chart.min.js"></script>
     <script src="app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+    <script src="app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
+    <script src="app-assets/vendors/js/extensions/polyfill.min.js"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
@@ -314,6 +363,7 @@
 
     <!-- BEGIN: Page JS-->
     <script src="app-assets/js/scripts/pages/dashboard-analytics.js"></script>
+    <script src="app-assets/js/scripts/tables/test.js"></script>
     <script src="app-assets/js/scripts/pages/app-invoice-list.js"></script>
     <script src="app-assets/js/scripts/charts/chart-apex.js"></script>
     <script src="app-assets/js/scripts/charts/chart-chartjs.js"></script>
@@ -321,11 +371,6 @@
     <!-- BEGIN: Page Vendor JS-->
     <script src="app-assets/vendors/js/maps/leaflet.min.js"></script>
     <!-- END: Page Vendor JS-->
-
-    <!-- BEGIN: Page JS-->
-    <script src="app-assets/js/scripts/maps/map-weststar.js"></script>
-
-    <!-- END: Page JS-->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
