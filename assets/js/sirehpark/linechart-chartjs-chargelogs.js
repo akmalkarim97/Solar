@@ -159,27 +159,6 @@ $(window).on('load', function () {
             pointShadowOffsetY: 1,
             pointShadowBlur: 5,
             pointShadowColor: tooltipShadow
-          },
-          {
-            data: [29,29,29,29,29,28,28,28,28,28,28,28,28,27,27,29,31,34,40,
-                   38,35,34,41,48,43,34,29,27,26,26,26,26,26,27,27,27,27,27,26,28,29,29,
-                   29,29,29,29,29],
-            label: 'Temperature(c)',
-            borderColor: lineChartDanger,
-            lineTension: 0.5,
-            pointStyle: 'circle',
-            backgroundColor: lineChartDanger,
-            fill: false,
-            pointRadius: 5,
-            pointHoverRadius: 8,
-            pointHoverBorderWidth: 2,
-            pointBorderColor: 'transparent',
-            pointHoverBorderColor: window.colors.solid.white,
-            pointHoverBackgroundColor: lineChartDanger,
-            pointShadowOffsetX: 1,
-            pointShadowOffsetY: 1,
-            pointShadowBlur: 5,
-            pointShadowColor: tooltipShadow
           }
         ]
       }
