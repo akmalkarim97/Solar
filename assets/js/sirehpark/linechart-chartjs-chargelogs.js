@@ -143,7 +143,7 @@ $(window).on('load', function () {
             data: [18,19,20,21,22,23,24,24,25,26,27,27,28,29,29,29,29,
                    29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,
                    1,3,5,7,9,11,13,15],
-            label: 'Discharge(AH',
+            label: 'Discharge(AH)',
             borderColor: warningLightColor,
             lineTension: 0.5,
             pointStyle: 'circle',
