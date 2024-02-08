@@ -4,19 +4,19 @@
     'use strict';
 
     var jsonData = {
-      "IDSP60_01": {"name": "SP60_01", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","BatteryPercentage":90,"Brightness":0,"TimeUpdate":"21/12/2023, 16:30:00"},
-      "IDSP60_02": {"name": "SP60_02", "Light": "OFF","Connectivity":"Excellent Signal","ChargingStatus":"Charging","Problem":"None","BatteryPercentage":80,"Brightness":0,"TimeUpdate":"21/12/2023, 17:00:00"},
-      "IDSP60_04": {"name": "SP60_04", "Light": "OFF","Connectivity":"Good Signal","ChargingStatus":"Charging","Problem":"Battery Discharging","Battery Percentage":90,"Brightness":0,"TimeUpdate":"21/12/2023, 14:00:00"},
-      "IDSP60_20": {"name": "SP60_20", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","BatteryPercentage":90,"Brightness":0,"TimeUpdate":"21/12/2023, 17:00:30"},
-      "IDSP60_07": {"name": "SP60_07", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","BatteryPercentage":40,"Brightness":0,"TimeUpdate":"21/12/2023, 17:00:00"},
-      "IDSP60_08": {"name": "SP60_08", "Light": "OFF","Connectivity":"Weak Signal","ChargingStatus":"Charging","Problem":"None","BatteryPercentage":40,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
-      "IDSP60_19": {"name": "SP60_19", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","BatteryPercentage":50,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
-      "IDSP60_18": {"name": "SP60_18", "Light": "OFF","Connectivity":"Excellant Signal","ChargingStatus":"Charging","Problem":"Battery Discharging","Brightness":0,"Battery Percentage":90,"Time Update":"21/12/2023, 16:00:00"},
-      "IDSP60_27": {"name": "SP60_27", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","BatteryPercentage":60,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
-      "IDSP60_10": {"name": "SP60_10", "Light": "OFF","Connectivity":"Excellant Signal","ChargingStatus":"Charging","Problem":"None","BatteryPercentage":70,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
-      "IDSP60_17": {"name": "SP60_17", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","BatteryPercentage":85,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
-      "IDSP60_05": {"name": "SP60_05", "Light": "OFF","Connectivity":"Good Signal","ChargingStatus":"Charging","Problem":"High Temperature","BatteryPercentage":81,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
-      "IDSP80_05": {"name": "SP80_05", "Light": "OFF","Connectivity":"Good Signal","ChargingStatus":"Discharging","Problem":"High Temperature","BatteryPercentage":61,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"}
+      "IDSP60_01": {"name": "SP60_01", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","BatteryPercentage":90,"Carbon_Emission":0.001,"Brightness":0,"TimeUpdate":"21/12/2023, 16:30:00"},
+      "IDSP60_02": {"name": "SP60_02", "Light": "OFF","Connectivity":"Excellent Signal","ChargingStatus":"Charging","Problem":"None","BatteryPercentage":80,"Carbon_Emission":0.001,"Brightness":0,"TimeUpdate":"21/12/2023, 17:00:00"},
+      "IDSP60_04": {"name": "SP60_04", "Light": "OFF","Connectivity":"Good Signal","ChargingStatus":"Charging","Problem":"Battery Discharging","Carbon_Emission":0.001,"Battery Percentage":90,"Brightness":0,"TimeUpdate":"21/12/2023, 14:00:00"},
+      "IDSP60_20": {"name": "SP60_20", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","Carbon_Emission":0.001,"BatteryPercentage":90,"Brightness":0,"TimeUpdate":"21/12/2023, 17:00:30"},
+      "IDSP60_07": {"name": "SP60_07", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","Carbon_Emission":0.001,"BatteryPercentage":40,"Brightness":0,"TimeUpdate":"21/12/2023, 17:00:00"},
+      "IDSP60_08": {"name": "SP60_08", "Light": "OFF","Connectivity":"Weak Signal","ChargingStatus":"Charging","Problem":"None","Carbon_Emission":0.001,"BatteryPercentage":40,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
+      "IDSP60_19": {"name": "SP60_19", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","Carbon_Emission":0.001,"BatteryPercentage":50,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
+      "IDSP60_18": {"name": "SP60_18", "Light": "OFF","Connectivity":"Excellant Signal","ChargingStatus":"Charging","Problem":"Battery Discharging","Carbon_Emission":0.001,"Brightness":0,"Battery Percentage":90,"Time Update":"21/12/2023, 16:00:00"},
+      "IDSP60_27": {"name": "SP60_27", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","Carbon_Emission":0.001,"BatteryPercentage":60,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
+      "IDSP60_10": {"name": "SP60_10", "Light": "OFF","Connectivity":"Excellant Signal","ChargingStatus":"Charging","Problem":"None","Carbon_Emission":0.001,"BatteryPercentage":70,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
+      "IDSP60_17": {"name": "SP60_17", "Light": "OFF","Connectivity":"Average Signal","ChargingStatus":"Charging","Problem":"None","Carbon_Emission":0.001,"BatteryPercentage":85,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
+      "IDSP60_05": {"name": "SP60_05", "Light": "OFF","Connectivity":"Good Signal","ChargingStatus":"Charging","Problem":"High Temperature","Carbon_Emission":0.001,"BatteryPercentage":81,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"},
+      "IDSP80_05": {"name": "SP80_05", "Light": "OFF","Connectivity":"Good Signal","ChargingStatus":"Discharging","Problem":"High Temperature","Carbon_Emission":0.001,"BatteryPercentage":61,"Brightness":0,"TimeUpdate":"21/12/2023, 16:00:00"}
     };
 
     function createMarker(lat, lng, id) {
@@ -27,6 +27,7 @@ var popupContent = '<strong>Device ID:</strong> ' + jsonData[id].name + '<br>' +
   '<strong>Connectivity:</strong> ' + jsonData[id].Connectivity + '<br>' +
   '<strong>Charging Status:</strong> ' + jsonData[id].ChargingStatus + '<br>' +
   '<strong>Problem:</strong> ' + jsonData[id].Problem + '<br>' +
+  '<strong>Carbon Emission:</strong> ' + jsonData[id].Carbon_Emission +"Kg" +'<br>' +
   '<strong>Battery Percentage:</strong> ' + jsonData[id].BatteryPercentage + '%'+ '<br>' +
   '<strong>Time Update:</strong> ' + jsonData[id].TimeUpdate + '<br>';
 
