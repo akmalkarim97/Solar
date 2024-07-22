@@ -18,7 +18,8 @@
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/charts/apexcharts.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/toastr.min.css">
-    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/datatables.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/ag-grid/ag-grid.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/ag-grid/ag-theme-material.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/maps/leaflet.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/responsive.bootstrap.min.css">
     <!-- END: Vendor CSS-->
@@ -36,6 +37,7 @@
     <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/vertical-menu.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/extensions/ext-component-toastr.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/pages/app-invoice-list.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/tables/table-ag-grid.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
@@ -69,7 +71,7 @@
                 </div>
                 <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style"><i class="ficon" data-feather="moon"></i></a></li>
                 <li class="nav-item dropdown dropdown-user"><a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <div class="user-nav d-sm-flex d-none"><span class="user-name font-weight-bolder">Weststar</span><span class="user-status">Admin</span></div><span class="avatar"><img class="round" src="assets/images/admin.png" alt="avatar" height="40" width="40"><span class="avatar-status-online"></span></span>
+                    <div class="user-nav d-sm-flex d-none"><span class="user-name font-weight-bolder">Muhammad Syamsul Bin Asri</span><span class="user-status">IoT Engineer</span></div><span class="avatar"><img class="round" src="app-assets/images/avatars/12.png" alt="avatar" height="40" width="40"><span class="avatar-status-online"></span></span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-user"><a class="dropdown-item" href="page-profile.html"><i class="mr-50" data-feather="user"></i> Profile</a><a class="dropdown-item" href="app-email.html"><i class="mr-50" data-feather="mail"></i> Inbox</a><a class="dropdown-item" href="app-todo.html"><i class="mr-50" data-feather="check-square"></i> Task</a><a class="dropdown-item" href="app-chat.html"><i class="mr-50" data-feather="message-square"></i> Chats</a>
                         <div class="dropdown-divider"></div><a class="dropdown-item" href="page-account-settings.html"><i class="mr-50" data-feather="settings"></i> Settings</a><a class="dropdown-item" href="page-pricing.html"><i class="mr-50" data-feather="credit-card"></i> Pricing</a><a class="dropdown-item" href="page-faq.html"><i class="mr-50" data-feather="help-circle"></i> FAQ</a><a class="dropdown-item" href="page-auth-login-v2.html"><i class="mr-50" data-feather="power"></i> Logout</a>
@@ -203,9 +205,9 @@
                 <!--OPERATIONS AREA-->
 				<li class=' nav-item'><a class='d-flex align-items-center' href='#'><img src='assets/images/icons/icons8-globe-96.png' class='position-left' alt='' width='29' height=''>&nbsp;&nbsp;<span class='menu-title text-truncate' data-i18n='Invoice'>Operations Area</span></a>
                     <ul class='menu-content'>
-                        <li><a class='d-flex align-items-center' href='sirehpark.html'><i data-feather='circle'></i><span class='menu-item' data-i18n='List'>Sireh Park</span></a>
+                        <li><a class='d-flex align-items-center' href='sirehpark.html'><i data-feather='circle'></i><span class='menu-item' data-i18n='List'><b>Sireh Park</b></span></a>
                         </li>
-                        <li><a class='d-flex align-items-center' href='pulaiperdana.html'><i data-feather='circle'></i><span class='menu-item' data-i18n='Preview'>Pulai Perdana</span></a>
+                        <li><a class='d-flex align-items-center' href='pulaiperdana.html'><i data-feather='circle'></i><span class='menu-item' data-i18n='Preview'><b>Pulai Perdana</b></span></a>
                         </li>
                     </ul>
                 </li>
@@ -223,6 +225,12 @@
 				<li class=' nav-item'><a class='d-flex align-items-center' href='#'><img src='assets/images/icons/contact-book1.png' class='position-left' alt='' width='25' height=''>&nbsp;&nbsp;<span class='menu-title text-truncate' data-i18n='Invoice'>Reports</span></a>
                 </li>
                 
+                <!-- Logo Weststar-->
+               <li class=' navigation-header'><span data-i18n='Apps &amp; Pages'>Power By:</span><i data-feather='more-horizontal'></i>&ensp;
+                <div>
+                    <img src="assets/images/wetest2.jpg" class="hello4">
+                </div>
+                </li>
             </ul>
         </div>
     </div>
@@ -257,6 +265,45 @@
                         </div>
                     </div>
                 </div>
+                <script>
+                    (function(d, s, id) {
+                        if (d.getElementById(id)) {
+                            if (window.__TOMORROW__) {
+                                window.__TOMORROW__.renderWidget();
+                            }
+                            return;
+                        }
+                        const fjs = d.getElementsByTagName(s)[0];
+                        const js = d.createElement(s);
+                        js.id = id;
+                        js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+            
+                        fjs.parentNode.insertBefore(js, fjs);
+                    })(document, 'script', 'tomorrow-sdk');
+                    </script>
+            
+                    <div class="tomorrow"
+                       data-location-id="076455"
+                       data-language="EN"
+                       data-unit-system="METRIC"
+                       data-skin="light"
+                       data-widget-type="upcoming"
+                       style="padding-bottom:22px;position:relative;"
+                    >
+                      <a
+                        href="https://www.tomorrow.io/weather-api/"
+                        rel="nofollow noopener noreferrer"
+                        target="_blank"
+                        style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+                      >
+                        <img
+                          alt="Powered by the Tomorrow.io Weather API"
+                          src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+                          width="250"
+                          height="18"
+                        />
+                      </a>
+                    </div>
                 <div class="content-body">
                     <script>
                         (function(d, s, id) {
@@ -301,12 +348,10 @@
                         <div class="row">
                             start: weather
                             <div class="col-12">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h4 class="card-title">Weather</h4>
-                                    </div>
+                                <div class="card"> 
                                     <div class="card-body">
-                                        <div id="ww_dc788fecefd41" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2478"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'><a href="#" id="ww_dc788fecefd41_u" target="_blank">Html weather widget</a></div><script async src="https://app2.weatherwidget.org/js/?id=ww_dc788fecefd41"></script>
+                                        <h4 class="card-title">Forecast Hourly Data</h4> 
+                                        <div id="myGrid" class="aggrid ag-theme-material"></div>
                                     </div>
                                 </div>
                             </div>
@@ -315,6 +360,7 @@
                     </section> -->
     
                 </div>
+
             </div>
         </div>
         
@@ -342,8 +388,18 @@
     <script src="app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js"></script>
     <script src="app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
     <script src="app-assets/vendors/js/tables/datatable/responsive.bootstrap.min.js"></script>
+    <script src="app-assets/vendors/js/tables/ag-grid/ag-grid-community.min.noStyle.js"></script>
+    <script src="app-assets/vendors/js/extensions/wNumb.min.js"></script>
+    <script src="app-assets/vendors/js/extensions/nouislider.min.js"></script>
+    <script src="app-assets/vendors/js/forms/spinner/jquery.bootstrap-touchspin.js"></script>
+    <script src="app-assets/vendors/js/pickers/pickadate/picker.js"></script>
+    <script src="app-assets/vendors/js/pickers/pickadate/picker.date.js"></script>
+    <script src="app-assets/vendors/js/pickers/pickadate/picker.time.js"></script>
+    <script src="app-assets/vendors/js/pickers/pickadate/legacy.js"></script>
     <script src="app-assets/vendors/js/charts/chart.min.js"></script>
     <script src="app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+    <script src="app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
+    <script src="app-assets/vendors/js/extensions/polyfill.min.js"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
@@ -353,20 +409,15 @@
 
     <!-- BEGIN: Page JS-->
     <script src="app-assets/js/scripts/pages/dashboard-analytics.js"></script>
+    <script src="app-assets/js/scripts/tables/test.js"></script>
     <script src="app-assets/js/scripts/pages/app-invoice-list.js"></script>
     <script src="app-assets/js/scripts/charts/chart-apex.js"></script>
     <script src="app-assets/js/scripts/charts/chart-chartjs.js"></script>
     <script src="app-assets/js/scripts/cards/card-analytics.js"></script>
     <!-- BEGIN: Page Vendor JS-->
-    <script src="app-assets/vendors/js/maps/leaflet.min.js"></script>
-    <!-- END: Page Vendor JS-->
-
-    <!-- BEGIN: Page JS-->
-    <script src="app-assets/js/scripts/maps/map-weststar.js"></script>
-
-    <!-- END: Page JS-->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- END: Page Vendor JS-->
+    
     <script>
         $(window).on('load', function() {
             if (feather) {
